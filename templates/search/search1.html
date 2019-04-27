@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+{# 搜索出结果后，haystack会把搜索出的结果传递给templates/search目录下的search.html，传递的上下文包括(query,page,paginator) #}
+搜索的关键字:{{ query }}<br />
+当前页的Page对象:{{ page }}<br />
+<ul>
+    {% for item in page %}
+    <li>{{ item.object }}</li>
+    {% endfor %}
+</ul>
+分页paginator对象:{{ paginator }}<br />
+</body>
+</html>

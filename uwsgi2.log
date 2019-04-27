@@ -1,0 +1,173 @@
+*** Starting uWSGI 2.0.14 (64bit) on [Fri Apr 12 17:25:28 2019] ***
+compiled with version: 5.4.0 20160609 on 28 March 2019 14:58:40
+os: Linux-4.15.0-47-generic #50~16.04.1-Ubuntu SMP Fri Mar 15 16:06:21 UTC 2019
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/xiaoge/Desktop/python3/06.Django/03.天天生鲜/bj18/dailyfresh
+writing pidfile to uwsgi2.pid
+detected binary path: /home/xiaoge/.virtualenvs/dailyfresh/bin/uwsgi
+chdir() to /home/xiaoge/Desktop/python3/06.Django/03.天天生鲜/bj18/dailyfresh
+your processes number limit is 7647
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.16.66.228:8081 fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/xiaoge/.virtualenvs/dailyfresh
+Python main interpreter initialized at 0x1a0a700
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x1a0a700 pid: 11122 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 11122)
+spawned uWSGI worker 1 (pid: 11124, cores: 2)
+spawned uWSGI worker 2 (pid: 11125, cores: 2)
+spawned uWSGI worker 3 (pid: 11126, cores: 2)
+spawned uWSGI worker 4 (pid: 11127, cores: 2)
+[pid: 11125|app: 0|req: 1/1] 172.16.66.1 () {40 vars in 743 bytes} [Fri Apr 12 17:38:19 2019] GET /favicon.ico => generated 85 bytes in 1307 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 11125|app: 0|req: 2/2] 172.16.66.1 () {42 vars in 854 bytes} [Fri Apr 12 17:38:58 2019] GET /goods/77 => generated 10728 bytes in 417 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.14 (64bit) on [Mon Apr 15 14:17:02 2019] ***
+compiled with version: 5.4.0 20160609 on 28 March 2019 14:58:40
+os: Linux-4.15.0-47-generic #50~16.04.1-Ubuntu SMP Fri Mar 15 16:06:21 UTC 2019
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/xiaoge/Desktop/python3/06.Django/03.天天生鲜/bj18/dailyfresh
+writing pidfile to uwsgi2.pid
+detected binary path: /home/xiaoge/.virtualenvs/dailyfresh/bin/uwsgi
+chdir() to /home/xiaoge/Desktop/python3/06.Django/03.天天生鲜/bj18/dailyfresh
+your processes number limit is 7647
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.16.66.228:8081 fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/xiaoge/.virtualenvs/dailyfresh
+Python main interpreter initialized at 0x845700
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x845700 pid: 5709 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5709)
+spawned uWSGI worker 1 (pid: 5711, cores: 2)
+spawned uWSGI worker 2 (pid: 5712, cores: 2)
+spawned uWSGI worker 3 (pid: 5713, cores: 2)
+spawned uWSGI worker 4 (pid: 5714, cores: 2)
+设置缓存
+[pid: 5711|app: 0|req: 1/1] 172.16.66.1 () {40 vars in 803 bytes} [Mon Apr 15 14:22:55 2019] GET /index => generated 15051 bytes in 1407 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 5711|app: 0|req: 2/2] 172.16.66.228 () {40 vars in 723 bytes} [Mon Apr 15 14:23:40 2019] GET /favicon.ico => generated 85 bytes in 124 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+[pid: 5711|app: 0|req: 3/3] 172.16.66.1 () {42 vars in 857 bytes} [Mon Apr 15 14:49:23 2019] GET /user/logout => generated 0 bytes in 35 msecs (HTTP/1.1 302) 4 headers in 214 bytes (1 switches on core 0)
+[pid: 5711|app: 0|req: 4/4] 172.16.66.1 () {42 vars in 811 bytes} [Mon Apr 15 14:49:25 2019] GET /user/login => generated 2225 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 1)
+[pid: 5711|app: 0|req: 5/5] 172.16.66.1 () {44 vars in 898 bytes} [Mon Apr 15 14:49:33 2019] GET /index => generated 15051 bytes in 120 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 5711|app: 0|req: 6/6] 172.16.66.1 () {48 vars in 940 bytes} [Mon Apr 15 14:49:43 2019] POST /cart/add => generated 67 bytes in 41 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 1)
+[pid: 5711|app: 0|req: 7/7] 172.16.66.1 () {50 vars in 1055 bytes} [Mon Apr 15 14:49:47 2019] POST /order/place => generated 5630 bytes in 31 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 5711|app: 0|req: 8/8] 172.16.66.1 () {42 vars in 882 bytes} [Mon Apr 15 14:49:54 2019] GET /user/order/1 => generated 6545 bytes in 129 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.14 (64bit) on [Mon Apr 15 17:46:37 2019] ***
+compiled with version: 5.4.0 20160609 on 28 March 2019 14:58:40
+os: Linux-4.15.0-47-generic #50~16.04.1-Ubuntu SMP Fri Mar 15 16:06:21 UTC 2019
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/xiaoge/Desktop/python3/06.Django/03.天天生鲜/bj18/dailyfresh
+writing pidfile to uwsgi2.pid
+detected binary path: /home/xiaoge/.virtualenvs/dailyfresh/bin/uwsgi
+chdir() to /home/xiaoge/Desktop/python3/06.Django/03.天天生鲜/bj18/dailyfresh
+your processes number limit is 7647
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 172.16.66.228:8081 fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/xiaoge/.virtualenvs/dailyfresh
+Python main interpreter initialized at 0x184d6e0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x184d6e0 pid: 3368 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3368)
+spawned uWSGI worker 1 (pid: 3370, cores: 2)
+spawned uWSGI worker 2 (pid: 3371, cores: 2)
+spawned uWSGI worker 3 (pid: 3372, cores: 2)
+spawned uWSGI worker 4 (pid: 3373, cores: 2)
+[pid: 3370|app: 0|req: 1/1] 172.16.66.228 () {40 vars in 728 bytes} [Mon Apr 15 17:50:55 2019] GET /favicon.ico => generated 85 bytes in 912 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 3370|app: 0|req: 2/2] 172.16.66.228 () {50 vars in 993 bytes} [Mon Apr 15 17:51:05 2019] POST /user/login => generated 0 bytes in 230 msecs (HTTP/1.1 302) 7 headers in 480 bytes (1 switches on core 1)
+[pid: 3372|app: 0|req: 1/3] 172.16.66.228 () {42 vars in 797 bytes} [Mon Apr 15 17:51:10 2019] GET /cart/ => generated 13014 bytes in 687 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 3372|app: 0|req: 2/4] 172.16.66.228 () {48 vars in 908 bytes} [Mon Apr 15 17:51:16 2019] POST /cart/add => generated 67 bytes in 13 msecs (HTTP/1.1 200) 3 headers in 94 bytes (1 switches on core 1)
+Gracefully killing worker 2 (pid: 3371)...
+Gracefully killing worker 1 (pid: 3370)...
+Gracefully killing worker 4 (pid: 3373)...
+Gracefully killing worker 3 (pid: 3372)...
+...gracefully killing workers...
+worker 2 buried after 3 seconds
+worker 4 buried after 3 seconds
+worker 1 buried after 4 seconds
+worker 3 buried after 4 seconds
+binary reloading uWSGI...
+chdir() to /home/xiaoge/Desktop/python3/06.Django/03.天天生鲜/bj18/dailyfresh
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (172.16.66.228:8081)
+running /home/xiaoge/.virtualenvs/dailyfresh/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi2.ini
+*** Starting uWSGI 2.0.14 (64bit) on [Tue Apr 16 00:03:30 2019] ***
+compiled with version: 5.4.0 20160609 on 28 March 2019 14:58:40
+os: Linux-4.15.0-47-generic #50~16.04.1-Ubuntu SMP Fri Mar 15 16:06:21 UTC 2019
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/xiaoge/Desktop/python3/06.Django/03.天天生鲜/bj18/dailyfresh
+detected binary path: /home/xiaoge/.virtualenvs/dailyfresh/bin/uwsgi
+chdir() to /home/xiaoge/Desktop/python3/06.Django/03.天天生鲜/bj18/dailyfresh
+your processes number limit is 7647
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 172.16.66.228:8081 fd 3
+Python version: 3.5.2 (default, Nov 12 2018, 13:43:14)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/xiaoge/.virtualenvs/dailyfresh
+Python main interpreter initialized at 0x25a9070
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 415360 bytes (405 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x25a9070 pid: 3368 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 3368)
+spawned uWSGI worker 1 (pid: 5137, cores: 2)
+spawned uWSGI worker 2 (pid: 5138, cores: 2)
+spawned uWSGI worker 3 (pid: 5139, cores: 2)
+spawned uWSGI worker 4 (pid: 5140, cores: 2)
